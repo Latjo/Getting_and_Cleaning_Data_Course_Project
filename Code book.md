@@ -1,6 +1,6 @@
-Data Dictionary - Activity Measurements
+# Data Dictionary - Activity Measurements
 
-Variables of mergedDF (data frame)
+## Variables of mergedDF (data frame)
 
 This data frame shows the measured values, related to mean and standard deviation, per individual and activity
 
@@ -275,7 +275,7 @@ This data frame shows the measured values, related to mean and standard deviatio
         Numeric Vector
 
 
-Variables of averageDF (data frame)
+# Variables of averageDF (data frame)
 
 This data frame shows the average values of the measurements in mergedDF per individual and activity
 
