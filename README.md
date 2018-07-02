@@ -11,3 +11,5 @@
  - Filters out the measurements that has to do with mean or standard deviation.
  - Creates a new column, named "activity" and replaces the activity IDs with corresponding activity names.
  - Creates a new data frame from the above, which holds the averages of all measurements per individual and activity.
+
+For further details, please follow along the comments in the script.
