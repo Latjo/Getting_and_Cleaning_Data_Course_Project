@@ -41,7 +41,7 @@ library(tidyr)
 mergedDF <- separate(mergedDF, measurements, into = features, sep = " +")
 
 # Filter out the measurement variables that correspond to mean or standard deviation
-mergedDF <- mergedDF[,c(TRUE, TRUE, grepl("[Mm][Ee][Aa][Nn]|[Ss][Tt][Dd]", names(mergedDF)[3:563]))]
+mergedDF <- mergedDF[,c(TRUE, TRUE, grepl("mean|std", names(mergedDF)[3:563]))]
 
 # Convert the measurement values from factor to numeric
 for(i in 3:ncol(mergedDF)) {
