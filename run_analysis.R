@@ -63,6 +63,3 @@ mergedDF <- cbind(mergedDF[,c(1,ncol(mergedDF),3:(ncol(mergedDF)-1))])
 # Create a new tidy data set with the average of every measurement, grouped by subject_ID and activity.
 averageDF <- group_by(mergedDF, subject_ID, activity) %>%
     summarise_all(mean)
-
-# Create a .txt file with the output of averageDF
-write.table(averageDF, "averageDF.txt", row.names = FALSE)
