@@ -1,6 +1,7 @@
 Data Dictionary - Activity Measurements
 
 Variables of mergedDF (data frame)
+
 This data frame shows the measured values, related to mean and standard deviation, per individual and activity
 
     subject_ID - IDs of individuals who were wearing phones that registered data     
@@ -275,6 +276,7 @@ This data frame shows the measured values, related to mean and standard deviatio
 
 
 Variables of averageDF (data frame)
+
 This data frame shows the average values of the measurements in mergedDF per individual and activity
 
     subject_ID - IDs of individuals who were wearing phones that registered data     
