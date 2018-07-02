@@ -65,4 +65,4 @@ averageDF <- group_by(mergedDF, subject_ID, activity) %>%
     summarise_all(mean)
 
 # Create a .txt file with the output of averageDF
-write.table(averageDF, "averageDF", row.names = FALSE)
+write.table(averageDF, "averageDF.txt", row.names = FALSE)
