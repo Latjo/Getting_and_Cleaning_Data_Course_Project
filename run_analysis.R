@@ -54,7 +54,6 @@ mergedDF[,1] <- as.integer(as.character(mergedDF[,1]))
 # Convert the activity_ID variable from factor to integer
 mergedDF[,2] <- as.integer(as.character(mergedDF[,2]))
 
-
 # Create a new column in mergedDF and populate it with data from activity_labels
 mergedDF <- mutate(mergedDF, activity = activity_labels[activity_ID])
 
